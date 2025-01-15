@@ -1,0 +1,438 @@
+/* Get Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+.row {
+    display: flex;
+}
+
+.w-100 {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+
+/* Containers utilities */
+.header-container,.large-container,.regular-container {
+    width: 100%;
+    margin-inline: auto;
+}
+.header-container {
+    max-width: 1778px;
+}
+
+.large-container {
+    max-width: 1690px;
+}
+
+.regular-container {
+    max-width: 1534px;
+}
+
+:is(.social-media) .regular-container {
+    padding-inline: 1rem;
+}
+
+
+/* Buttons */
+.primary-btn {
+    padding: 18px 52px;
+    background-color: #234B99;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 4.5%;
+    line-height: normal;
+    border-radius: 14px;
+    display: block;
+}
+
+header {
+    padding-inline: 0.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    max-width: 102px;
+    width: 100%;
+}
+
+.navbar .navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    column-gap: 95px;
+}
+
+.navbar .menu a {
+    color: #234B99;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: -1.5px;
+    line-height: normal;
+}
+
+.navbar .navbar-menu .primary-btn {
+    margin-left: 89px;
+}
+
+.navbar #menuToggle {
+    display: none;
+}
+.navbar .menu-btn {
+    width: 42px;
+    height: 42px;
+    background: lightgray;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-size: 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    display: none;
+    cursor: pointer;
+}
+
+/* Hero Banner */
+/* .hero {
+}
+.hero-banner {
+    max-width: 100%;
+} */
+
+
+.social-media {
+    padding-block: 125px;
+    box-shadow: 0px 37px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-media {
+    max-width: 412px;
+    width: 100%;
+}
+.card-media img {
+    max-width: 82px;
+    margin-bottom: 22px;
+    padding-left: 37px;
+
+}
+.card .card-title {
+    color: #C05F72;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 80.4px;
+    letter-spacing: -0.025em;
+    border-left: 4px solid rgba(35, 75, 153, 1);
+    padding-left: 33px;
+}
+.card-content {
+    max-width: 59.46%;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46.08px;
+    letter-spacing: -0.025em;
+    color: #234B99;
+}
+
+.card-content span {
+    color: #C05F72;
+    text-transform: uppercase;
+}
+
+
+.Advantages {
+    padding-block: 86px 0;
+    padding-inline: 1rem;
+}
+
+.Advantages .row {
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.Advantages .Advantages-title {
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 85.76px;
+    letter-spacing: -0.025em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #234B99;
+}
+
+.card.Advantage {
+    display: block;
+    max-width: 31.4%;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.card.Advantage .card-media {
+    max-width: 100%;
+    margin-bottom: 65px;
+}
+
+.card.Advantage .card-media img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card.Advantage .card-content {
+    max-width: 100%;
+}
+
+.WhatAllow {
+    padding-inline: 1rem;
+    padding-bottom: 98px;
+    box-shadow: 0px 37px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.WhatAllow .card {
+    flex-direction: column;
+    align-items: start;
+}
+
+.WhatAllow .card .card-media {
+    max-width: 100%;
+}
+
+.WhatAllow .card .card-title {
+    margin-bottom: 120px;
+}
+
+.WhatAllow .card .card-content {
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+
+section.businessAgenda {
+    padding-inline: 1rem;
+    padding-block: 110px 1px;
+    box-shadow: 0px 37px 28px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.businessAgenda .card.businessAgenda {
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 15.64%;
+    padding-top: 0;
+}
+.businessAgenda .card .card-media {
+    max-width: 147px;
+}
+.businessAgenda .card.businessAgenda .card-media img {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    margin-top: 45px;
+}
+
+.businessAgenda .card .card-media .card-title {
+    margin-bottom: 165px;
+}
+
+.businessAgenda .card .card-body {
+    max-width: 52.6%;
+}
+
+.businessAgenda .card .card-body .card-title {
+    border: none;
+    padding-inline: 0;
+    margin-bottom: 21px;
+    color: #234B99;
+}
+.businessAgenda .card .card-body .card-content {
+    line-height: 43px;
+}
+
+.businessAgenda .card.businessAgenda {
+    margin-bottom: 190px;
+}
+
+.card.businessAgenda.red .card-title,
+.card.businessAgenda.red .card-content {
+    color: #C05F72;
+}
+
+
+footer {
+    padding-block: 120px 90px;
+    padding-inline: 1rem;
+    background-color: #234B99;
+    color: white;
+}
+
+footer .footer-logo a {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+
+}
+footer .footer-info {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+footer .row {
+    padding-inline: 1rem;
+    column-gap: 140px;
+    flex-wrap: wrap;
+}
+
+footer .col.one {
+    max-width: 607px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+footer .footer-widgets {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    margin-bottom: 18px;
+}
+
+.footer-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.025em;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+
+}
+/* Media Quires */
+
+@media screen and (max-width: 1280px) {
+    .navbar .menu {
+        column-gap: 55px;
+    }
+    .navbar .navbar-menu .primary-btn {
+        margin-left: 45px;
+    }
+    .navbar .logo {
+        max-width: 95px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    header {
+        padding-inline: 1rem;
+    }
+    .navbar .menu-btn {
+        display: block;
+    }
+    .navbar .navbar-menu {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        background: white;
+        height: 0vh;
+        transition: all 0s ease-in-out;
+        visibility: hidden;
+    }
+    #menuToggle:checked~.navbar-menu {
+        visibility: visible;
+        top: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .navbar .navbar-menu .menu,
+    .navbar .navbar-menu {
+        display: block;
+    }
+    .navbar .navbar-menu {
+        padding: 3rem 1rem;
+        text-align: center;
+    }
+    .navbar .navbar-menu .menu a {
+        margin-bottom: 1rem;
+    }
+    .navbar .navbar-menu .primary-btn {
+        margin-left: 0;
+    }
+
+    .card  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .businessAgenda.card {
+        flex-direction: column;
+    }
+    .card .card-media,
+    .businessAgenda .card .card-body {
+        max-width: 90%;
+    }
+    .card .card-content {
+        max-width: 90%;
+    }
+    .businessAgenda .card.businessAgenda {
+        margin-bottom: 90px;
+    }
+    .card.Advantage {
+        max-width: 49.4%;
+    }
+}
